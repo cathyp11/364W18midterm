@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul>
+{% for res in all_res %}
+  <li><strong>{{ res.restaurant }}</strong><br> <i>{{ res.address }}</i></li><br>
+{% endfor %}
+</ul>
+
+{% if not all_res %}
+    There are no saved restaurants to show.
+{% endif %}
+
+{% endblock %}

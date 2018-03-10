@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul>
+{% for f in all_food %}
+  <li><strong>{{ f.food }}</strong><br> because <i>{{ f.reason }}</i></li><br>
+{% endfor %}
+</ul>
+
+{% if not all_food %}
+    There are no saved favorite food to show.
+{% endif %}
+
+{% endblock %}
