@@ -5,15 +5,15 @@ You can write a review about a restaurant in Ann Arbor. The restaurants are foun
 
 #### Routes
 
-http://localhost:5000/ -> base.html
-http://localhost:5000/names -> name_example.html
-http://localhost:5000/restaurants -> restaurants.html
-http://localhost:5000/food_form -> food_form.html
-http://localhost:5000/fav_food -> food_results.html # If clicked without submitting the form, it goes back to food_form because it can't save data using GET request. Thus, an empty dictionary shows up as flash_get_messages().
-http://localhost:5000/all_reviews -> all_reviews.html
-http://localhost:5000/all_restaurants -> all_restaurants.html
-http://localhost:5000/all_food -> all_food.html
-http://localhost:5000/404 -> 404.html
+- http://localhost:5000/ -> base.html
+- http://localhost:5000/names -> name_example.html
+- http://localhost:5000/restaurants -> restaurants.html
+- http://localhost:5000/food_form -> food_form.html
+- http://localhost:5000/fav_food -> food_results.html # If clicked without submitting the form, it goes back to food_form because it can't save data using GET request. Thus, an empty dictionary shows up as flash_get_messages().
+- http://localhost:5000/all_reviews -> all_reviews.html
+- http://localhost:5000/all_restaurants -> all_restaurants.html
+- http://localhost:5000/all_food -> all_food.html
+- http://localhost:5000/404 -> 404.html
 
 
 #### Code Requirements
